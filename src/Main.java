@@ -46,7 +46,7 @@ public class Main {
         int classes = botlls/oneClassBotls;
         int alsoBotlsWhite = classes*whiteBotls;
         int alsoBrownBotls = classes*brownBotls;
-        System.out.println("В школе, где " + classes + " классов, нужно" + alsoBotlsWhite + "банок белой краски и" + alsoBrownBotls + " банок коричневой краски");
+        System.out.println("В школе, где " + classes + " классов, нужно " + alsoBotlsWhite + " банок белой краски и " + alsoBrownBotls + " банок коричневой краски");
         System.out.println("Задание 6");
         int bananas = 5;
         int grammBanana = 80;
@@ -55,7 +55,7 @@ public class Main {
         int icecream = 2;
         int grammIcecrem = 100;
         int eggs = 4;
-        int grammEgg = 4;
+        int grammEgg = 70;
         float miksGramm = bananas*grammBanana+milk*grammMilk+icecream*grammIcecrem+eggs*grammEgg;
         float miksKg = miksGramm/1000;
         System.out.println("Вес спортзавтрака в граммах "+ miksGramm + ", вес спортзавтрака в кг " + miksKg);
