@@ -1,5 +1,91 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+
+        int a = 100000;
+        byte b = 20;
+        short c = 1000;
+        long d = 1000000;
+        float e = 4.87F;
+        double f =10.7868;
+        System.out.println("Задание 1");
+        System.out.println("Значение переменной a с типом int равно " + a);
+        System.out.println("Значение переменной b с типом byte равно " + b);
+        System.out.println("Значение переменной c с типом short равно " + c);
+        System.out.println("Значение переменной d с типом long равно " + d);
+        System.out.println("Значение переменной e с типом float равно " + e);
+        System.out.println("Значение переменной f с типом double равно " + f);
+        //Задание 2
+        int a1 = 27897,g3=-159;
+        byte b2 = 67;
+        short c4 = 569;
+        float e6 = 2.786f;
+        double f7 =27.12;
+        System.out.println("Задание 3");
+        int luda = 23;
+        int anna = 27;
+        int katya = 30;
+        int paper = 480;
+        int list = paper/(luda + anna + katya);
+        System.out.println("На каждого ученика рассчитано "+list+" листов бумаги");
+        System.out.println("Задание 4");
+        int botl =16;
+        int time = 2;
+        int minets = botl/time*20;
+        int day = botl/time*24*60;
+        int days = botl/time*24*60*3;
+        int month = botl/time*24*60*30;//для месяца я бы запросила количество дней в этом месяце и потом уже считала, возникаю вопросы какой месяц и сколько в этом месяце дне
+        System.out.println("За 20 минут машина произвела "+minets+" штук бутылок");
+        System.out.println("За день машина произвела "+day+" штук бутылок");
+        System.out.println("За 3 дня машина произвела "+days+" штук бутылок");
+        System.out.println("За месяц машина произвела "+month+" штук бутылок");
+        System.out.println("Задание 5");
+        int botlls = 120;
+        int whiteBotls = 2;
+        int brownBotls = 4;
+        int oneClassBotls = whiteBotls + brownBotls;
+        int classes = botlls/oneClassBotls;
+        int alsoBotlsWhite = classes*whiteBotls;
+        int alsoBrownBotls = classes*brownBotls;
+        System.out.println("В школе, где " + classes + " классов, нужно " + alsoBotlsWhite + " банок белой краски и " + alsoBrownBotls + " банок коричневой краски");
+        System.out.println("Задание 6");
+        int bananas = 5;
+        int grammBanana = 80;
+        int milk = 200;
+        int grammMilk = 105;
+        int icecream = 2;
+        int grammIcecrem = 100;
+        int eggs = 4;
+        int grammEgg = 70;
+        float miksGramm = bananas*grammBanana+milk*grammMilk+icecream*grammIcecrem+eggs*grammEgg;
+        float miksKg = miksGramm/1000;
+        System.out.println("Вес спортзавтрака в граммах "+ miksGramm + ", вес спортзавтрака в кг " + miksKg);
+        System.out.println("Задание 7");
+        int grammOne = 250;
+        int grammTwo = 500;
+        int weghtKg = 7;
+        int weghtGramm = weghtKg*1000;
+        int pohudenieOne = weghtGramm/grammOne;
+        int pohudenieTwo = weghtGramm/grammTwo;
+        System.out.println("Количество дней, если спортсмен сбрасывает в день 250 грамм " + pohudenieOne + ", количество дней, если спортсмен сбрасывает в день 500 грамм " + pohudenieTwo);
+        System.out.println("Задание 8");
+        double percent = 1.1;
+        int zpMarry = 67760;
+        double newZpMarry = zpMarry*percent;
+        int zpDenis = 83690;
+        double newZpDenis = zpDenis*percent;
+        int zpKriss = 76230;
+        double newZpKriss = zpKriss*percent;
+        int yearZpMarry = zpMarry*12;
+        double newYearZpMarry = newZpMarry*12;
+        int yearZpDenis = zpDenis*12;
+        double newYearZpDenis = newZpDenis*12;
+        int yearZpKriss = zpKriss*12;
+        double newYearZpKriss = newZpKriss*12;
+        double hightMarry = newYearZpMarry - yearZpMarry;
+        double hightDenis = newYearZpDenis - yearZpDenis;
+        double hightKriss = newYearZpKriss - yearZpKriss;
+        System.out.println("Маша теперь получает " + newZpMarry+ " рублей. Годовой доход вырос на " + hightMarry + " рублей");
+        System.out.println("Денис теперь получает " + newZpDenis+ " рублей. Годовой доход вырос на " + hightDenis + " рублей");
+        System.out.println("Кристина теперь получает " + newZpKriss+ " рублей. Годовой доход вырос на " + hightKriss + " рублей");
+        }
 }
